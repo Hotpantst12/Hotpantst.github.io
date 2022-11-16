@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1 {
+    font-size: 40px;
+    line-height: 60px;
+    color: black;
+}
+h2{
+    font-size: 40px;
+    line-height: 50px;
+    color: black;
+}
+h4{
+     font-size: 20px;
+     color: black;
+}
+h6{
+    font-weight: 700;
+    font-size: 30px;
+}
+p{
+    font-size: 16px;
+    color: dimgrey;
+    margin: 15px 0 18px 0;
+}
+.section-p1{
+    padding: 30px 60px;
+}
+.section-m1{
+    margin: 40px 0;
+}
+body{
+    width: 100%;
+}
+/* header start*/
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #f2386d;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: #DF2EFF;
+}
+#navbar li a.active::after{
+    content: "";
+    width: 30% ;
+    height: 2px;
+    background: #E82ABF;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+.icon{
+    border: 2px;
+    border-color: black;
+    display: flex;
+}
+/* home page*/
+
+#hero{
+    background-image: url(imagenes/carnev2.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+#hero h4{
+    padding-bottom: 15px;
+    color: white;
+}
+#hero h1{
+    color: white;
+
+}
+#hero h2{
+    color: white;
+}
+#hero p{
+    color: wheat;
+}
+#hero button{
+    background-image: url("imagenes/button.png");
+    background-color: transparent;
+    color: white;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
