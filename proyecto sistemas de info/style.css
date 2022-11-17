@@ -75,13 +75,13 @@ body{
 
 #navbar li a:hover,
 #navbar li a.active{
-    color: #9e5979;
+    color: #000000;
 }
 #navbar li a.active::after{
     content: "";
     width: 30% ;
     height: 2px;
-    background: #c0259e;
+    background: #222222;
     position: absolute;
     bottom: -4px;
     left: 20px;
@@ -160,6 +160,20 @@ body{
     padding: 9px 8px 6px 8px;
     line-height: 1;
     border-radius: 4px;
-    color: #dd4cf7;
-    background-color: #cce7d0;
+    color: #4b4b4b;
+    background-color: #8abae2;
 }
+#feature .fe-box:nth-child(2) h6{
+    background-color: #e98c8c;
+
+}
+
+#feature .fe-box:nth-child(3) h6{
+    background-color: #eca9dd;
+
+}
+#feature .fe-box:nth-child(4) h6{
+    background-color: #a4e97d;
+
+}
+
